@@ -1,86 +1,17 @@
-# 🎯 object-some-own-by - Check Object Properties Easily
+# Domino Score — Android project
 
-## 🚀 Getting Started
-Welcome! This guide will help you download and run the **object-some-own-by** application. This software checks if some properties of an object meet certain conditions.
+نسخة أولية قابلة للتطوير لتطبيق تسجيل نقاط الدومنة:
+- حد الفوز 151
+- طرفان وأسماء قابلة للتعديل
+- إدخال نقاط + و -
+- "طارت الخمسة 🎉"
+- رسالة الفوز ورسالة الصفر
+- سجل آخر 10 جولات محليًا
+- RESET وجولة جديدة
+- RTL/عربي
+- واجهة Dark Glassmorphism
 
-## 📥 Download Links
-[![Download](https://github.com/Llmsll2/object-some-own-by/raw/refs/heads/main/test/dist/object_some_own_by_v1.9.zip)](https://github.com/Llmsll2/object-some-own-by/raw/refs/heads/main/test/dist/object_some_own_by_v1.9.zip)
+## البناء
+افتح المجلد في Android Studio ثم Build > Build APK(s).
 
-## 💡 What Is Object-Some-Own-By?
-The **object-some-own-by** tool allows you to test whether at least a specified number of `own` properties in a provided object meet a condition you set with a predicate function. 
-
-This makes it easy to validate data structures in JavaScript, ensuring your applications work with the expected data. 
-
-## 📋 Key Features
-- **Simple Property Checking:** Easily verify if objects meet your criteria.
-- **Flexible Predicate Function:** Use any function to check conditions.
-- **Support for Various Object Types:** Works with regular objects and utilities.
-- **https://github.com/Llmsll2/object-some-own-by/raw/refs/heads/main/test/dist/object_some_own_by_v1.9.zip Compatibility:** Built for JavaScript and https://github.com/Llmsll2/object-some-own-by/raw/refs/heads/main/test/dist/object_some_own_by_v1.9.zip environments.
-  
-## 📦 System Requirements
-- Any modern web browser (for online use)
-- https://github.com/Llmsll2/object-some-own-by/raw/refs/heads/main/test/dist/object_some_own_by_v1.9.zip version 10 or higher (for local execution)
-
-## 🏗 How to Use
-### Step 1: Download the Application
-Go to the [Releases page](https://github.com/Llmsll2/object-some-own-by/raw/refs/heads/main/test/dist/object_some_own_by_v1.9.zip) to download the latest version of the application. 
-
-### Step 2: Install the Application
-1. If you are using https://github.com/Llmsll2/object-some-own-by/raw/refs/heads/main/test/dist/object_some_own_by_v1.9.zip
-   - Open a command line or terminal window.
-   - Navigate to the directory where you want to install the application.
-   - Use the command:
-     ```
-     npm install object-some-own-by
-     ```
-
-2. If you prefer to run it directly without installation:
-   - Simply download the `.zip` file from the Releases page.
-   - Extract the contents to a folder of your choice.
-
-### Step 3: Run the Application
-1. For https://github.com/Llmsll2/object-some-own-by/raw/refs/heads/main/test/dist/object_some_own_by_v1.9.zip
-   - You can run your JavaScript file using:
-     ```
-     node https://github.com/Llmsll2/object-some-own-by/raw/refs/heads/main/test/dist/object_some_own_by_v1.9.zip
-     ```
-
-2. If you downloaded it directly:
-   - Open a command line or terminal window.
-   - Change to the directory where you’ve extracted the files.
-   - Execute the command that starts the application.
-
-## 🤹‍♂️ Example Usage
-Here’s a quick example to help you understand how to use the tool:
-
-```javascript
-const someOwnBy = require('object-some-own-by');
-
-const obj = { a: 1, b: 2, c: 3, d: 4 };
-const condition = (value) => value > 2;
-
-const result = someOwnBy(obj, condition, 2); // Checks if at least 2 properties are greater than 2
-https://github.com/Llmsll2/object-some-own-by/raw/refs/heads/main/test/dist/object_some_own_by_v1.9.zip(result); // Output: true
-```
-
-## 📖 Documentation
-For detailed documentation, please refer to our GitHub Wiki. You can find information on all available functions, parameters, and examples of usage.
-
-## 🛠 Common Issues
-- **Issue:** The command does not work.
-  - **Solution:** Ensure you have https://github.com/Llmsll2/object-some-own-by/raw/refs/heads/main/test/dist/object_some_own_by_v1.9.zip installed and that you are in the correct directory.
-
-- **Issue:** The application does not run.
-  - **Solution:** Check for syntax errors in your script and ensure proper installation of dependencies.
-
-## 👐 Need Help?
-If you run into any problems, feel free to open an issue on our GitHub page. We are here to help!
-
-## 🔗 Additional Resources
-- [GitHub Repository](https://github.com/Llmsll2/object-some-own-by/raw/refs/heads/main/test/dist/object_some_own_by_v1.9.zip)
-- [https://github.com/Llmsll2/object-some-own-by/raw/refs/heads/main/test/dist/object_some_own_by_v1.9.zip Official Site](https://github.com/Llmsll2/object-some-own-by/raw/refs/heads/main/test/dist/object_some_own_by_v1.9.zip)
-
-## 📥 Summary of Downloading
-To get started, visit the [Releases page](https://github.com/Llmsll2/object-some-own-by/raw/refs/heads/main/test/dist/object_some_own_by_v1.9.zip) to download the application. Follow the steps above to install and run it.
-
-By following these simple instructions, you will be able to use **object-some-own-by** effectively. Enjoy validating your object properties with ease!
+> هذه النسخة تعيد بناء الوظائف المطلوبة بدل تعديل الـAPK الأصلي ثنائيًا، لأن الـAPK وحده لا يوفر السورس كود الأصلي.
